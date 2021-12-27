@@ -25,27 +25,27 @@ summary: 'I am a passionate software engineer with x years of working experience
 socialLinks:
 - name: Email
   icon: "fas fa-envelope"
-  url: "example@gmail.com"
+  url: "dalonlobo@gmail.com"
 
 - name: Github
   icon: "fab fa-github"
-  url: "https://www.github.com/example"
+  url: "https://github.com/dalonlobo"
 
 - name: Stackoverflow
   icon: "fab fa-stack-overflow"
-  url: "#"
+  url: "https://stackoverflow.com/users/3959965/dalonlobo"
 
 - name: LinkedIn
   icon: "fab fa-linkedin"
-  url: "#"
+  url: "https://www.linkedin.com/in/dalonlobo/"
 
 - name: Twitter
   icon: "fab fa-twitter"
-  url: "#"
+  url: "https://twitter.com/dalonlobo"
 
 - name: Facebook
   icon: "fab fa-facebook"
-  url: "#"
+  url: "https://www.facebook.com/dalonlobo/"
 
 # Show your badges
 # You can show your verifiable certificates from https://www.credly.com.
