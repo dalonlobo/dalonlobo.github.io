@@ -1,6 +1,6 @@
 # some information about you
 name: "Dalon Lobo"
-nickname: "Dalon"
+nickname: "Dalon Lobo"
 # greeting message before your name. it will default to "Hi! I am" if not provided
 greeting: "Hi, I am"
 image: "images/author/dalon.JPG"
@@ -13,6 +13,7 @@ contactInfo:
 
 # some summary about what you do
 summary:
-  - I am a Developer
+  - I am a Research Engineer and Student
   - I love AI/ML
+  - Working to change the world one day at a time
   - I love to work with some fun projects

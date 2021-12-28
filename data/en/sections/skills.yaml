@@ -11,15 +11,38 @@ section:
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
-- name: Kubernetes
-  logo: /images/sections/skills/kubernetes.png
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
-  url: "https://kubernetes.io/"
 
-- name: Go Development
-  logo: /images/sections/skills/go.png
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
-  url: "https://golang.org/"
+- name: Machine Learning
+  logo: /images/sections/skills/ml.svg
+  summary: "I have built end-to-end ASR(Acoustic Speech Recognition) engine using Deepspeech2 architecture and deployed it as API using flask. I've worked on  multiple machine learning problems, times series, tabular-structure/unstructured-data, NLP, CV, audio, and anomaly detection."
+
+- name: Deep Learning
+  logo: /images/sections/skills/ml.svg
+  summary: "Worked on Tensorflow, Keras, Pytorch, and Fast.Ai with various models, ANN, RNN, CNN, GRU, BiLSTM, Pretrained NN. Built end-to-end Speaker Diarization pipeline and transcript punctuation DL pipeline."
+
+
+- name: Data Science
+  logo: /images/sections/skills/ml.svg
+  summary: "I am experienced in Machine-learning, Data-Analysis, Deep-learning, NLP, deploying-web-apps, and researching on latest technology related to AI Advancement. Built automated data cleaning pipelines."
+  # url: "https://kubernetes.io/"
+
+- name: Data Analysis
+  logo: /images/sections/skills/ml.svg
+  summary: "Hands-on experience on SQL, plotly, matplotlib, ggplot, seaborn, and Tableau. Exploratory Data Analysis, Geospatial analysis, and Time-series analysis."
+  # url: "https://golang.org/"
+
+- name: Full stack developer
+  logo: /images/sections/skills/ml.svg
+  summary: "Built multiple full stack projects using Django, Flask, Javascript, Jquery, HTML, CSS and hosted it on Apache/Nginx servers"
+
+- name: Python
+  logo: /images/sections/skills/python.png
+  summary: "Proficient in python programming. Used for academic, research and in industry."
+
+- name: Git
+  logo: /images/sections/skills/git.png
+  summary: "Experienced with git-based development. Mostly, use Github for version control."
+  url: "https://github.com/dalonlobo"
 
 - name: Cloud Computing
   logo: /images/sections/skills/cloud.png
@@ -30,20 +53,10 @@ skills:
   summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
   url: "https://www.docker.com/"
 
-- name: Prometheus
-  logo: /images/sections/skills/prometheus.png
-  summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
-  url: "https://prometheus.io/"
-
 - name: Linux
   logo: /images/sections/skills/linux.png
-  summary: "Using as the main operating system. Capable of writing bash/shell scripts."
-
-- name: Git
-  logo: /images/sections/skills/git.png
-  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
-  url: "https://git-scm.com/"
+  summary: "Using WSL. Capable of writing bash/shell scripts."
 
 - name: C++
   logo: /images/sections/skills/c++.png
-  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
+  summary: "Know basic C/C++ programming. Used for academic, contest programming and problem solving."
