@@ -48,6 +48,14 @@ degrees:
   extracurricularActivities: #(optional)
   - Website developer for Antigonish School Supplies Share Program 
   - Volunteer for StFX Students' Union - Kevin's Food Resouce Center  
+
+# - name: Post Graduate Program in Big Data and Machine Learning
+#   icon: fa-graduation-cap
+#   timeframe: 2017-2018
+#   institution:
+#     name: Great Lakes Institute of Management, India
+#     url: "https://eportfolio.greatlearning.in/dalon-francis-lobo"
+
 - name: B.E. in Electronics and Communication Engineering
   icon: fa-graduation-cap
   timeframe: 2009-2013

@@ -3,7 +3,7 @@ section:
   name: Accomplishments
   id: accomplishments
   enable: true
-  weight: 8
+  weight: 7
   showOnNavbar: true
   # Can optionally hide the title in sections
   # hideTitle: true
@@ -11,36 +11,50 @@ section:
 
 # Your accomplishments
 accomplishments:
-- name: Linux Foundation System Administrator
-  timeline: "March 2018 - March 2019"
+- name: Post Graduate Program in Big Data and Machine Learning
+  timeline: "Mar 2017 - Jun 2018"
   organization:
-    name: Linux Foundation
-    url: https://www.linuxfoundation.org
-  courseOverview: This course helps to understand the key concepts such as networking, storage, security, maintenance, logging and monitoring, application lifecycle, troubleshooting, API object primitives etc. It also help to grow the ability to establish basic use-cases for end users.
-  certificateURL: "https://example.com"
+    name: Great Lakes Institute of Management, India
+    url: https://eportfolio.greatlearning.in/dalon-francis-lobo
+  courseOverview: In this course I learnt to work with Big data using Spark and Hadoop. Learnt basics of Machine Learning, explored data visualizations, feature/model selection, tuning and introduction to analytics using statistical techniques. [Click here to view my projects.](https://eportfolio.greatlearning.in/dalon-francis-lobo)
+  certificateURL: "https://eportfolio.greatlearning.in/dalon-francis-lobo"
 
-- name: Machine Learning
-  timeline: "Jun 2020 - Jan 2021"
-  organization:
-    name: Coursera
-    url: https://www.coursera.org
-  courseOverview: "This course provides a broad introduction to machine learning, datamining, and statistical pattern recognition. Topics include: (i) Supervised learning (parametric/non-parametric algorithms, support vector machines, kernels, neural networks). (ii) Unsupervised learning (clustering, dimensionality reduction, recommender systems, deep learning). (iii) Best practices in machine learning (bias/variance theory; innovation process in machine learning and AI)."
-  certificateURL: "https://example.com"
-
-- name: Grokking the System Design Interview
-  timeline: "Jan 2018 - Sept 2018"
-  organization:
-    name: educative
-    url: https://www.educative.io
-  courseOverview: This course is a complete guide to master the SDIs. It is created by hiring managers who’ve been working at Google, Facebook, Microsoft, and Amazon. We've carefully chosen a set of questions that have not only been repeatedly asked at top companies, but also provide a thorough experience to handle any system design problem.
-  certificateURL: "https://example.com"
-
-- name: Mastering Multithreading Programming with Go (Golang)
-  timeline: "Nov 2017 - Mar 2018"
+- name: "Python for Data Science and Machine Learning Bootcamp"
+  # timeline: "Jun 2020 - Jan 2021"
   organization:
     name: Udemy
-    url: https://www.udemy.com
-  courseOverview: Discover how to create responsive and high performance software. Develop programs with Golang that are highly Concurrent and Parallel. Improve your programming skills in Go with more advanced, mulithreading topics.
-  certificateURL: "https://example.com"
- 
+    url: https://www.udemy.com/course/python-for-data-science-and-machine-learning-bootcamp/?src=sac&kw=Python+for+Data+Science+and+Machine+Learning+Bootcamp
+  courseOverview: "This course taught me how to use NumPy, Pandas, Seaborn, Matplotlib, Plotly, Scikit-Learn, Machine Learning, Tensorflow."
+  certificateURL: "https://udemy-certificate.s3.amazonaws.com/pdf/UC-OIPW2WR3.pdf"
 
+- name: "Machine Learning"
+  # timeline: "Jun 2020 - Jan 2021"
+  organization:
+    name: Stanford University - Coursera
+    url: https://www.coursera.org/learn/machine-learning
+  courseOverview: "This course gave me a broad introduction to machine learning, datamining, and statistical pattern recognition. Topics included: (i) Supervised learning (parametric/non-parametric algorithms, support vector machines, kernels, neural networks). (ii) Unsupervised learning (clustering, dimensionality reduction, recommender systems, deep learning). (iii) Best practices in machine learning (bias/variance theory; innovation process in machine learning and AI)."
+  certificateURL: "https://www.coursera.org/account/accomplishments/verify/ZYUMMQHSS2K6"
+
+- name: "Data Science A-Z™: Real-Life Data Science Exercises Included"
+  # timeline: "Jun 2020 - Jan 2021"
+  organization:
+    name: Udemy
+    url: https://www.udemy.com/course/datascience/
+  courseOverview: "This course taught me Data Science step by step through real Analytics examples. Data Mining, Modeling, Tableau Visualization."
+  certificateURL: "https://www.udemy.com/certificate/UC-77K3E4CV/"
+
+- name: "Machine Learning A-Z™: Hands-On Python & R In Data Science"
+  # timeline: "Jun 2020 - Jan 2021"
+  organization:
+    name: Udemy
+    url: https://www.udemy.com/course/machinelearning/
+  courseOverview: "This course taught me hands on machine learning using python and R programming languages."
+  certificateURL: "https://www.udemy.com/certificate/UC-SJ0FSJMO/"
+
+- name: "Introduction to R"
+  # timeline: "Jun 2020 - Jan 2021"
+  organization:
+    name: DataCamp
+    url: https://www.datacamp.com/
+  courseOverview: "I learned the basics of data analysis by manipulating common data structures such as vectors, matrices, and data frames using R."
+  certificateURL: "https://www.datacamp.com/statement-of-accomplishment/course/2b1ea76f625cc0055d11fa7d3397f7a24e42e1a7"
