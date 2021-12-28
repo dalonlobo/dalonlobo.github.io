@@ -28,7 +28,7 @@ skills:
 
 - name: Data Analysis
   logo: /images/sections/skills/ml.svg
-  summary: "Hands-on experience on SQL, plotly, matplotlib, ggplot, seaborn, and Tableau. Exploratory Data Analysis, Geospatial analysis, and Time-series analysis."
+  summary: "Hands-on experience on SQL, Non-SQL, plotly, matplotlib, ggplot, seaborn, and Tableau. Exploratory Data Analysis, Geospatial analysis, and Time-series analysis."
   # url: "https://golang.org/"
 
 - name: Full stack developer

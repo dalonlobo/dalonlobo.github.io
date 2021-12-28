@@ -10,81 +10,100 @@ section:
   # hideTitle: true
 
 degrees:
-- name: Ph.D in Quantum Cryptography
-  icon: fa-microscope
-  timeframe: 2016-2020
+- name: Post-Baccalaureate Diploma in Artificial Intelligence
+  icon: fa-university
+  timeframe: 2020-2022
   institution:
-    name: ABC University of Technology
-    url: "#"
+    name: St Francis Xavier University, Canada
+    url: "https://www.stfx.ca/"
   grade: #(optional)
-    scale: CGPA
-    achieved: 3.6
-    outOf: 4
-  publications: #(optional)
-  - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    url: "#"
-  - title: Fusce eu augue ut odio porttitor pulvinar.
-    url: "#"
-  - title: Nullam vitae orci tincidunt purus viverra pulvinar.
-    url: "#"
-- name: B.Sc. in Computer Science & Engineering
-  icon: fa-graduation-cap
-  timeframe: 2012-2016
-  institution:
-    name: University of XYZ
-    url: "#"
-  grade: #(optional)
-    scale: CGPA
-    achieved: 3.5
-    outOf: 4
+    scale: GPA
+    achieved: 95.55
+    outOf: 99
   takenCourses: #(optional)
     # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
     showGrades: true
     collapseAfter: 3
     courses:
-    - name: Data Structures and Algorithm
-      achieved: 3.75
-      outOf: 4
-    - name: Network Security
-      achieved: 3.80
-      outOf: 4
-    - name: Operating System
-      achieved: 3.5
-      outOf: 4
-    - name: Artificial Intelligent
-      achieved: 3.75
-      outOf: 4
+    - name: Machine Learning
+      achieved: 99
+      outOf: 99
+    - name: Evolutionary Computation
+      achieved: 98
+      outOf: 99
+    - name: Coding in Health Analytics
+      achieved: 99
+      outOf: 99
+    - name: Programming & Data Structures
+      achieved: 98
+      outOf: 99
+    - name: Computer Organization
+      achieved: 94
+      outOf: 99 
   publications: #(optional)
-  - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    url: "#"
-  - title: Fusce eu augue ut odio porttitor pulvinar.
-    url: "#"
+  - title: Facial Expression Detector and English to Kannada Translator
+    url: "https://github.com/dalonlobo/Eng-Kan-LSTM-translate.git"
+  - title: An Exploration of Different Techniques for Artificially Producing Art
+    url: "https://github.com/dalonlobo/evolutionary-art.git"
   extracurricularActivities: #(optional)
-  - In vitae facilisis est, eget porta sem.
-  - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
-  - Duis sed massa feugiat, ornare justo et, aliquam est.
-  - Pellentesque ut fringilla magna.
-- name: Higher Secondary School Certificate
-  icon: fa-university
-  timeframe: 2010-2012
+  - Website developer for Antigonish School Supplies Share Program 
+  - Volunteer for StFX Students' Union - Kevin's Food Resouce Center  
+- name: B.E. in Electronics and Communication Engineering
+  icon: fa-graduation-cap
+  timeframe: 2009-2013
   institution:
-    name: MST College of Science
-    url: "#"
-  grade: #(optional)
-    scale: GPA
-    achieved: 5
-    outOf: 5
-  extracurricularActivities: #(optional)
-  - In vitae facilisis est, eget porta sem.
-  - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
-  - Duis sed massa feugiat, ornare justo et, aliquam est.
-  - Pellentesque ut fringilla magna.
-- name: Secondary School Certificate
-  icon: fa-school
-  timeframe: 2005-2010
-  institution:
-    name: JK School of Science
-  grade: #(optional)
-    scale: GPA
-    achieved: 4.5
-    outOf: 5
+    name: St Joseph Engineering College, India
+    url: "https://www.sjec.ac.in/"
+  # grade: #(optional)
+  #   scale: CGPA
+  #   achieved: 3.5
+  #   outOf: 4
+  # takenCourses: #(optional)
+  #   # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+  #   showGrades: true
+  #   collapseAfter: 3
+  #   courses:
+  #   - name: Data Structures and Algorithm
+  #     achieved: 3.75
+  #     outOf: 4
+  #   - name: Network Security
+  #     achieved: 3.80
+  #     outOf: 4
+  #   - name: Operating System
+  #     achieved: 3.5
+  #     outOf: 4
+  #   - name: Artificial Intelligent
+  #     achieved: 3.75
+  #     outOf: 4
+  publications: #(optional)
+  - title: Counterfeit currency detector using UV image processing
+    url: "https://www.daijiworld.com/news/newsDisplay.aspx?newsID=183054"
+  # extracurricularActivities: #(optional)
+  # - Antigonish School Supplies Share Program
+  # - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
+  # - Duis sed massa feugiat, ornare justo et, aliquam est.
+  # - Pellentesque ut fringilla magna.
+# - name: Higher Secondary School Certificate
+#   icon: fa-university
+#   timeframe: 2010-2012
+#   institution:
+#     name: MST College of Science
+#     url: "#"
+#   grade: #(optional)
+#     scale: GPA
+#     achieved: 5
+#     outOf: 5
+#   extracurricularActivities: #(optional)
+#   - In vitae facilisis est, eget porta sem.
+#   - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
+#   - Duis sed massa feugiat, ornare justo et, aliquam est.
+#   - Pellentesque ut fringilla magna.
+# - name: Secondary School Certificate
+#   icon: fa-school
+#   timeframe: 2005-2010
+#   institution:
+#     name: JK School of Science
+#   grade: #(optional)
+#     scale: GPA
+#     achieved: 4.5
+#     outOf: 5

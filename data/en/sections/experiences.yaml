@@ -11,54 +11,74 @@ section:
 # Your experiences
 experiences:
 - company:
-    name: Example Co.
-    url: "https://www.example.com"
-    location: Dhaka Branch
+    name: Videoken Software Pvt. Ltd.
+    url: "https://www.videoken.com/"
+    location: Bangalore, India
     # company overview
-    overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
+    overview: VideoKen offers AI based video product solutions to turn videos into interactive & immersive learning experiences.
   positions:
-  - designation: Senior Software Engineer
-    start: Nov 2019
+  - designation: Consulting ML Engineer
+    start: Sep 2020
     # don't provide end date if you are currently working there. It will be replaced by "Present"
-    # end: Dec 2020
+    end: Dec 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Design and develop XYZ tool for ABC task
-    - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
-    - Lead backend team.
+    - Expanding and optimizing search and Indexing algorithms
+    - Monitoring and maintaining key APIs/services
 
-  - designation: Junior Software Engineer
-    start: Nov 2017
-    end: Oct 2019
+  - designation: Research Engineer
+    start: Mar 2018
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    end: Sep 2020
+    # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Implement and test xyz feature for abc tool.
-    - Support client for abc tool.
-    - Learn k,d,w technology for xyz.
+    - Designed and implemented an end-to-end search engine using elastic search and BERT embedding to achieve semantic understanding of the search terms, which drives the sale of Video lake. This includes dockerized microservices for RESTful backend and model inference
+    - Designed and implemented an end-to-end Acoustic Speech Recognition(ASR) pipeline, using the Baidu’s DeepSpeech2 ASR architecture trained on 1000 hrs of custom transcribed audio and reduced the Word Error Rate to 8%, which helped Videoken's AI based video platform to increase video engagement by 30% in one week. This includes RESTful backend with Flask, Cosmosdb, and model inference on GPU machine
+    - Implemented punctuation pipeline for video subtitle (SRT) files using bidirectional RNN with attention mechanism (punctuator2) architecture
+    - Designed and implemented video recommendation, using the sentence embeddings of the metadata of the videos
+    - Implemented Speaker Diarization pipeline by training a Fully Supervised Speaker Diarization (UIS-RNN) model on 50GB of audio-text data which helped in implementing the Sentence Segmentation algorithm for indexing the videos
+    - Written technical design specifications which clearly states the algorithm and implementation details
+    - Served as a core group member in defining and prioritizing technology investments and ensuring the alignment of process, technology and business objectives
+
+  - designation: Research Engineer Intern
+    start: Dec 2017
+    end: Mar 2018
+    responsibilities:
+    - Research on AI architecture and pipline enhancements to Video Indexing
 
 - company:
-    name: PreExample Co.
-    url: "https://www.example.com"
-    location: Nowhere
-    overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
+    name: Freelancer
+    url: "https://piedpiperevents.com/"
+    location: Bangalore, India
+  positions:
+  - designation: Software Developer
+    start: Mar 2017
+    end: Dec 2017
+    responsibilities:
+    - Designed and developed a website for Pied Piper Events pvt. ltd. (https://piedpiperevents.com), which includes dynamic pages, chat, blog and admin interface using Django-Python and hosted on AWS server
+
+- company:
+    name: Accenture Pvt. Ltd.
+    url: "https://www.accenture.com/"
+    location: Bangalore, India
+    overview: Multinational professional services company that specialises in information technology services and consulting.
   positions:
   - designation: Software Engineer
-    start: March 2016
-    end: May 2017
+    start: Sep 2015
+    end: Feb 2017
     responsibilities:
-    - Write lots of example codes.
-    - Read lots of examples.
-    - See lots of example videos.
+    - Designed and developed a dashboard for Credit Suisse Bank using Django-python, which reduced the report generation time by 50%. This project includes SQL integration and hosting on Ngnix
+    - Trained the internal team on Python for automation
 
 - company:
-    name: Intern Counting Company (ICC).
-    url: "https://www.example.com"
-    location: Intern Land
-    overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
+    name: Telenetix Pvt. Ltd.
+    url: "https://www.telenetix.in/"
+    location: Manipal, India
+    overview: Telenetix provides cost-effective technology for contact centers, all aimed to streamline business processes and optimize customer care.
   positions:
-  - designation: Intern
-    start: Jun 2015
-    end: Jan 2016
+  - designation: Software Developer
+    start: Jun 2013
+    end: Jul 2015
     responsibilities:
-    - Count lost of interns.
-    - Count more interns.
-    - Count me as an intern.
+    - Designed, developed and deployed end-to-end solution with dashboard using Django framework, which is used for remote monitoring and controlling the Solar Power Plant in Australia
+    - Designed and developed Tx-Contact monitoring dashboard, which is used by Contact Center supervisors to generate reports and monitor agents
