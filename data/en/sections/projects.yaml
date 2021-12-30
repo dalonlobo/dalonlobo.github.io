@@ -13,11 +13,13 @@ buttons:
 - name: All
   filter: "all"
 - name: Professional
-  filter: "professional"
+  filter: "Professional"
 - name: Academic
-  filter: "academic"
-- name: ML
-  filter: "machinelearning"
+  filter: "Academic"
+- name: Machine Learning
+  filter: "Machine Learning"
+- name: NLP
+  filter: "NLP"
 
 # your projects
 projects:
@@ -26,7 +28,7 @@ projects:
   role: Research and Developer
   # timeline: "March 2018 - Present"
   # repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
-  url: "https://www.videoken.com"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  # url: "https://www.videoken.com"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
   summary: Designed and implemented an end-to-end Acoustic Speech Recognition(ASR) pipeline, using the Baidu’s DeepSpeech2 ASR architecture trained on 1000 hrs of custom transcribed audio and reduced the Word Error Rate to 8%, which helped Videoken's AI based video platform to increase video engagement by 30% in one week. This includes RESTful backend with Flask hosted on nginx(AWS), Cosmosdb, and model inference on GPU machine. Built a preprocessing pipeline, which downloaded the video, split the converted audio before speech to text, post-process the text into SRT (subtitle) file which syncs with the original video.
-  tags: ["professional", "machinelearning"]
+  tags: ["Professional", "Machine Learning", "NLP"]
 

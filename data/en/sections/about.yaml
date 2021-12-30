@@ -15,7 +15,7 @@ company:
   url: "https://www.stfx.ca/"
 
 # your resume. this file path should be relative to you "static" directory
-resume: "files/resume-dev-1.pdf"
+resume: "files/dalonlobo-resume.pdf"
 
 # a summary about you
 summary: 'I am a passionate data scientist professional with 7 years of work experience who loves to build machine learning models. Currently, studying Post baccalaureate in Artificial Intelligence at StFX University, Canada. My vision is to build a startup which can create jobs for many. I work on some fun projects such as machine translation, computer vision, etc. I am open to work, do checkout my profile and get in touch with me.'
