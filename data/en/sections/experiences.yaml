@@ -34,7 +34,7 @@ experiences:
     responsibilities:
     - Designed and implemented an end-to-end search engine using elastic search and BERT embedding to achieve semantic understanding of the search terms, which drives the sale of Video lake. This includes dockerized microservices for RESTful backend and model inference
     - Designed and implemented an end-to-end Acoustic Speech Recognition(ASR) pipeline, using the Baidu’s DeepSpeech2 ASR architecture trained on 1000 hrs of custom transcribed audio and reduced the Word Error Rate to 8%, which helped Videoken's AI based video platform to increase video engagement by 30% in one week. This includes RESTful backend with Flask, Cosmosdb, and model inference on GPU machine
-    - Implemented punctuation pipeline for video subtitle (SRT) files using bidirectional RNN with attention mechanism (punctuator2) architecture
+    - Implemented punctuation pipeline which restored missing inter-word punctuation for video subtitle (SRT) files using bidirectional RNN with attention mechanism (punctuator2) architecture
     - Designed and implemented video recommendation, using the sentence embeddings of the metadata of the videos
     - Implemented Speaker Diarization pipeline by training a Fully Supervised Speaker Diarization (UIS-RNN) model on 50GB of audio-text data which helped in implementing the Sentence Segmentation algorithm for indexing the videos
     - Written technical design specifications which clearly states the algorithm and implementation details

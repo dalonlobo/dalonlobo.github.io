@@ -20,6 +20,8 @@ buttons:
   filter: "Machine Learning"
 - name: NLP
   filter: "NLP"
+- name: Web Development
+  filter: "Web Development"
 
 # your projects
 projects:
@@ -28,7 +30,96 @@ projects:
   role: Research and Developer
   # timeline: "March 2018 - Present"
   # repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
-  # url: "https://www.videoken.com"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  url: "https://www.videoken.com"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
   summary: Designed and implemented an end-to-end Acoustic Speech Recognition(ASR) pipeline, using the Baidu’s DeepSpeech2 ASR architecture trained on 1000 hrs of custom transcribed audio and reduced the Word Error Rate to 8%, which helped Videoken's AI based video platform to increase video engagement by 30% in one week. This includes RESTful backend with Flask hosted on nginx(AWS), Cosmosdb, and model inference on GPU machine. Built a preprocessing pipeline, which downloaded the video, split the converted audio before speech to text, post-process the text into SRT (subtitle) file which syncs with the original video.
   tags: ["Professional", "Machine Learning", "NLP"]
 
+- name: Search Engine using Elastic Search
+  # logo: /images/sections/projects/kubernetes.png
+  role: Research and Developer
+  # timeline: "March 2018 - Present"
+  # repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  url: "https://lake.videoken.com/exchange"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Designed and implemented an end-to-end search engine using elastic search and BERT embedding to achieve semantic understanding of the search terms, which drives the sale of Video lake. This includes dockerized microservices for RESTful backend and model inference.
+  tags: ["Professional", "NLP"]
+
+- name: Inter-word Punctuation Restoration
+  # logo: /images/sections/projects/kubernetes.png
+  role: Research and Developer
+  # timeline: "March 2018 - Present"
+  # repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  # url: "https://www.videoken.com"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Implemented punctuation pipeline which restored missing inter-word punctuation for video subtitle (SRT) files using bidirectional RNN with attention mechanism (punctuator2) architecture.
+  tags: ["Professional", "Machine Learning", "NLP"]
+
+- name: Video Recomendation using Sentence Embeddings
+  # logo: /images/sections/projects/kubernetes.png
+  role: Research and Developer
+  # timeline: "March 2018 - Present"
+  # repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  # url: "https://www.videoken.com"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Designed and implemented video recommendation, using the sentence embeddings of the metadata of the videos.
+  tags: ["Professional", "Machine Learning", "NLP"]
+
+- name: Speaker Diarization
+  # logo: /images/sections/projects/kubernetes.png
+  role: Research and Developer
+  # timeline: "March 2018 - Present"
+  # repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  # url: "https://www.videoken.com"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Implemented Speaker Diarization pipeline by training a Fully Supervised Speaker Diarization (UIS-RNN) model on 50GB of audio-text data which helped in implementing the Sentence Segmentation algorithm for indexing the videos.
+  tags: ["Professional", "Machine Learning", "NLP"]
+
+- name: Full Stack website development
+  # logo: /images/sections/projects/kubernetes.png
+  role: Software Developer
+  # timeline: "March 2018 - Present"
+  # repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  url: "https://piedpiperevents.com"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Designed and developed a website for Pied Piper Events pvt. ltd. (https://piedpiperevents.com), which includes dynamic pages, chat, blog and admin interface using Django-Python and hosted on AWS server.
+  tags: ["Professional", "Web Development"]
+
+- name: Dashboard for Reporting
+  # logo: /images/sections/projects/kubernetes.png
+  role: Software Developer
+  # timeline: "March 2018 - Present"
+  # repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  # url: "https://www.videoken.com"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Designed and developed a dashboard for Credit Suisse Bank using Django-python, which reduced the report generation time by 50%. This project includes SQL integration and hosting on Ngnix.
+  tags: ["Professional", "Web Development"]
+
+- name: Remote Solar Power Plant control and reporting
+  # logo: /images/sections/projects/kubernetes.png
+  role: Software Developer
+  # timeline: "March 2018 - Present"
+  # repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  # url: "https://www.videoken.com"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Designed, developed and deployed end-to-end solution with dashboard using Django framework, which is used for remote monitoring and controlling the Solar Power Plant in Australia.
+  tags: ["Professional", "Web Development"]
+
+- name: TxContact Dashboard
+  # logo: /images/sections/projects/kubernetes.png
+  role: Software Developer
+  # timeline: "March 2018 - Present"
+  # repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  # url: "https://www.videoken.com"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Designed and developed Tx-Contact monitoring dashboard, which is used by Contact Center supervisors to generate reports and monitor agents.
+  tags: ["Professional", "Web Development"]
+
+- name: Facial Expression Detector and English to Kannada Translator
+  # logo: /images/sections/projects/kubernetes.png
+  role: Machine Learning Engineer
+  # timeline: "March 2018 - Present"
+  repo: "https://github.com/dalonlobo/Eng-Kan-LSTM-translate.git" # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  # url: "https://www.videoken.com"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Visualize and explore FER-2013 dataset with 28k images, implement CNN architecture with prediction on webcam images converted to emoji. English to Kannada Translation using Bilingual Sentence Pairs dataset using RNN, GRU and LSTM models.
+  tags: ["Academic", "Machine Learning", "NLP", "Computer Vision"]
+
+- name: An Exploration of Different Techniques for Artificially Producing Art
+  # logo: /images/sections/projects/kubernetes.png
+  role: Software Engineer
+  # timeline: "March 2018 - Present"
+  repo: "https://github.com/dalonlobo/evolutionary-art.git" # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  # url: "https://www.videoken.com"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: An Exploration of Different Techniques for Artificially Producing Art using Genetic Algorithm.
+  tags: ["Academic", "Evolutionary Computing"]
