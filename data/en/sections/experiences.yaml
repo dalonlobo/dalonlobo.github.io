@@ -32,7 +32,7 @@ experiences:
     end: Sep 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Designed and implemented an end-to-end search engine using elastic search and BERT embedding to achieve semantic understanding of the search terms, which drives the sale of Video lake. This includes dockerized microservices for RESTful backend and model inference
+    - Designed and implemented an end-to-end search engine using elastic search and BERT embedding to achieve semantic understanding of the search terms, which drives the sale of Video lake. This includes dockerized microservice for RESTful backend and model inference
     - Designed and implemented an end-to-end Acoustic Speech Recognition(ASR) pipeline, using the Baidu’s DeepSpeech2 ASR architecture trained on 1000 hrs of custom transcribed audio and reduced the Word Error Rate to 8%, which helped Videoken's AI based video platform to increase video engagement by 30% in one week. This includes RESTful backend with Flask, Cosmosdb, and model inference on GPU machine
     - Implemented punctuation pipeline which restored missing inter-word punctuation for video subtitle (SRT) files using bidirectional RNN with attention mechanism (punctuator2) architecture
     - Designed and implemented video recommendation, using the sentence embeddings of the metadata of the videos
@@ -44,7 +44,7 @@ experiences:
     start: Dec 2017
     end: Mar 2018
     responsibilities:
-    - Research on AI architecture and pipline enhancements to Video Indexing
+    - Research on AI architecture and pipeline enhancements to Video Indexing
 
 - company:
     name: Freelancer
@@ -61,13 +61,13 @@ experiences:
     name: Accenture Pvt. Ltd.
     url: "https://www.accenture.com/"
     location: Bangalore, India
-    overview: Multinational professional services company that specialises in information technology services and consulting.
+    overview: Multinational professional services company that specializes in information technology services and consulting.
   positions:
   - designation: Software Engineer
     start: Sep 2015
     end: Feb 2017
     responsibilities:
-    - Designed and developed a dashboard for Credit Suisse Bank using Django-python, which reduced the report generation time by 50%. This project includes SQL integration and hosting on Ngnix
+    - Designed and developed a dashboard for Credit Suisse Bank using Django-python, which reduced the report generation time by 50%. This project includes SQL integration and hosting on Nginx
     - Trained the internal team on Python for automation
 
 - company:
